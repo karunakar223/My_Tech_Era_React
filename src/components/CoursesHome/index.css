@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+}
+
+.navbar {
+  height: 13vh;
+  width: 100%;
+  background-color: #f1f5f9;
+  display: flex;
+  align-items: center;
+}
+
+.website-logo {
+  height: 60px;
+  width: 100px;
+  margin-left: 30px;
+}
+
+.ul-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-heading {
+  font-size: 32px;
+  font-weight: 900;
+  padding-top: 30px;
+  padding-left: 60px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.image {
+  height: 80px;
+  width: 80px;
+  margin-right: 12px;
+}
+.name {
+  color: #475569;
+  font-size: 18px;
+  font-weight: 500;
+}
+.li-container {
+  list-style-type: none;
+  margin: 50px;
+}
+
+.courses-loader-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-container {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 12px;
+}
+
+.failure-header {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 12px;
+}
+
+.failure-description {
+  font-size: 16px;
+  font-weight: 500;
+  color: #64748b;
+  margin-bottom: 12px;
+}
+.retry-button {
+  height: 38px;
+  width: 100px;
+  background-color: #4656a1;
+  color: #e8e8e8;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+}

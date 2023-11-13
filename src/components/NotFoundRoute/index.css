@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+}
+.navbar {
+  height: 13vh;
+  width: 100%;
+  background-color: #f1f5f9;
+  display: flex;
+  align-items: center;
+}
+
+.website-logo {
+  height: 60px;
+  width: 100px;
+  margin-left: 30px;
+}
+
+.not-found-image {
+  height: 350px;
+  width: 350px;
+  margin-bottom: 12px;
+}
+
+.not-found-container {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-header {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 12px;
+}
+.not-found-description {
+  font-size: 18px;
+  font-weight: 500;
+  color: #64748b;
+}
